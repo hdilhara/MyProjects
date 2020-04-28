@@ -25,17 +25,18 @@
         }
 
         .se-title{
-            font-size: 75px;
+            font-size: 45px;
             font-weight: 600;
         }
+
         .my-name{
             font-size: 25px;
             font-weight: 600;
         }
         .main-div{
-            padding-top: 20%;
-            padding-bottom: 20%;
-            text-align: center;
+            padding-top: 15%;
+            padding-bottom: 100%;
+            padding-left: 10%;
             background: url(./img/img3.jpg) no-repeat center center fixed; 
             -webkit-background-size: cover;
             -moz-background-size: cover;
@@ -43,6 +44,41 @@
             background-size: cover;
             color: white;
         }
+        @media only screen and (max-width: 800px){
+          .se-title{
+            font-size: 35px;
+            font-weight: 600;
+            padding-left: 10%;
+          }
+          .my-name{
+            font-size: 20px;
+            font-weight: 600;
+            padding-left: 10%;
+          }
+          
+        }
+        @media only screen and (max-width: 600px){
+          .main-div{
+            padding-top: 40%;
+            padding-bottom: 100%;
+            /* text-align: center; */
+            
+            background: url(./img/img3.jpg) no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            color: white;
+          }
+          .se-title{
+            font-size: 30px;
+            font-weight: 600;
+            padding-left: 10%;
+          }
+        }
+
+
+
         body {margin: 0; height: 100%; overflow: hidden}
     </style>
   </head>
@@ -86,15 +122,32 @@
 
 
 
-    <div  class= " main-div" >
-            
-        <p class="se-title">
-            Software Engineer
-        </p>
-        <p class="my-name">
-            Thilina Dilhara
-        </p>
-    </div>
+    <!-- <div  class= " main-div" >
+         <div style="background-color: blue;">
+            <p class="se-title">
+              Hi,<br/> I'm Thilina,<br/>
+              Full Stack Developer.
+            </p>
+            <p class="my-name">
+                Thilina Dilhara
+            </p>
+         </div>   
+        
+    </div> -->
+
+    <div  class= "main-div" >
+     
+         <p class="se-title">
+
+           Hi,<br/> I'm Thilina,<br/>
+           Full Stack Developer.
+         </p>
+         <p class="my-name">
+             Thilina Dilhara
+         </p>
+
+     
+ </div>
     
 
 
